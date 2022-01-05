@@ -1,6 +1,3 @@
-# bikenwgaps
-Supplementary code for IPCC procedure
-
 # Automated Detection of Missing Links in Developed Bicycle Networks 
 This is the source code for the scientific article [*Automated Detection of Missing Links in Developed Bicycle Networks*](ADD LINK) by A. Vybornova, T. Cunha, A. Gühnemann and [M. Szell](http://michael.szell.net/). The code runs the IPCC procedure (Identify, Prioritize, Cluster, Classify), as presented in the article, for the use case of Copenhagen, but can easily be modified for application to any other city. It pre-processes data from OpenStreetMap and executes the first 3 steps (Identify, Prioritize, Cluster) on the bicycle network; results are generated and saved for the last, manual step of the IPCC procedure (Classify).
 
