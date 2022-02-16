@@ -20,7 +20,6 @@ import igraph as ig
 
 # geo
 import geopandas as gpd
-#import pyproj
 import shapely
 
 # plot
@@ -28,8 +27,6 @@ import matplotlib.pyplot as plt
 import folium
 from folium.features import DivIcon
 from IPython.display import display
-from IPython.display import Audio
-
 
 
 
