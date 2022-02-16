@@ -5,7 +5,7 @@ This is the source code for the scientific article [Automated Detection of Missi
 **Visualization**: [FixBike.Net](http://fixbike.net) 
 
 ## Folder structure
-The main folder/repo is `bikenwgaps`, containing Jupyter notebooks with code (`00_import`, `01_IP`, `02_D`);  the imported packages (`packages`) and the plot parameters (`parameters_plot`) and a subfolder with OSM data (`data/`). All output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. The folder `_compare` contains the output as generated if all 3 notebooks are run successfully. Once all output is generated, the notebooks can be re-run independently from each other (in any order). 
+The main folder/repo is `bikenwgaps`, containing Jupyter notebooks with code (`00_import`, `01_IP`, `02_D`);  the requirements for setting up the code environment (`requirements.txt`); the imported packages (`packages.py`) and the plot parameters (`parameters_plot.py`) as well as a subfolder with OSM data (`data/`). All output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. The folder `_compare` contains the output as generated if all 3 notebooks are run successfully. Once all output is generated, the notebooks can be re-run independently from each other (in any order). 
 
 ## Setting up code environment 
 
