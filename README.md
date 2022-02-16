@@ -33,7 +33,7 @@ python -m ipykernel install --user --name=bnwker
 Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it trusted (Not Trusted > Trust). Run the notebooks in the indicated order:
 * `00_import`
 * `01_IP`
-* `02_D`)
+* `02_D`
 
 ## Results
 The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
