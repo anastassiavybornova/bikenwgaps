@@ -20,11 +20,8 @@ import igraph as ig
 
 # geo
 import geopandas as gpd
-import pyproj
+#import pyproj
 import shapely
-#from shapely.geometry import Point
-#import shapely.ops as ops
-# from haversine import haversine, Unit, haversine_vector
 
 # plot
 import matplotlib.pyplot as plt
@@ -32,8 +29,6 @@ import folium
 from folium.features import DivIcon
 from IPython.display import display
 from IPython.display import Audio
-from selenium import webdriver
-import skimage as sk
 
 
 
