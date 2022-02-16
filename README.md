@@ -36,6 +36,6 @@ Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it t
 * `02_D`)
 
 ## Results
-The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
+The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
 
-![kbh_gh](https://user-images.githubusercontent.com/73348979/154326759-c9c032c7-7bcf-444f-8e35-ae0a9385fda3.png)
+![kbh_gh](https://user-images.githubusercontent.com/73348979/154326998-5b3609e9-b858-4fb1-ae30-fef281f840ec.png)
