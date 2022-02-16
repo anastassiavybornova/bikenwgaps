@@ -5,16 +5,23 @@ This is the source code for the scientific article [Automated Detection of Missi
 **Visualization**: [FixBike.Net](http://fixbike.net) 
 
 ## Folder structure
-The main folder/repo is `bikenwgaps`, containing Jupyter notebooks with code (`00_import`, `01_IP`, `02_C`);  the imported packages (`packages`) and the plot parameters (`parameters_plot`) and a subfolder with OSM data (`data/`). Output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. 
+The main folder/repo is `bikenwgaps`, containing Jupyter notebooks with code (`00_import`, `01_IP`, `02_D`);  the imported packages (`packages`) and the plot parameters (`parameters_plot`) and a subfolder with OSM data (`data/`). All output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. The folder `_compare` contains the output as generated if all 3 notebooks are run successfully. Once all output is generated, the notebooks can be re-run independently from each other (in any order). 
 
-## Setting up code environment
+## Setting up code environment 
+
+The required python version is 3.8.8. `pip` must be installed and updated before setting up the environment. `requirements.txt` must be placed in the working directory. 
+
 ```
-conda create --override-channels -c conda-forge -n OSMNX python=3 osmnx=0.16.2 python-igraph watermark haversine rasterio tqdm geojson
-conda activate OSMNX
+conda create --override-channels -c conda-forge -n bnwenv shapely
+conda activate bnwenv
+pip install -r requirements.txt 
 conda install -c conda-forge ipywidgets
-pip install opencv-python
-conda install -c anaconda gdal
-pip install --user ipykernel
-python -m ipykernel install --user --name=OSMNX
+pip install --user ipykernel 
+python -m ipykernel install --user --name=bnwker
 ```
-Run Jupyter Notebook with kernel OSMNX (Kernel > Change Kernel > OSMNX)
+
+## Running the jupyter notebooks
+Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it trusted (Not Trusted > Trust). Run the notebooks in the indicated order:
+* `00_import`
+* `01_IP`
+* `02_D`)
