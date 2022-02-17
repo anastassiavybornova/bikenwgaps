@@ -16,7 +16,12 @@ The main folder/repo is `bikenwgaps`. It contains:
 
 All output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. Once all output is generated, the notebooks can be re-run independently from each other (in any order). 
 
-## Setting up code environment 
+## Running binder
+[Binder: Live repository](https://mybinder.org/v2/gh/anastassiavybornova/bikenwgaps/HEAD)
+
+## Running on your local machine
+
+### Setting up code environment 
 
 The required python version is 3.8.8. `pip` must be installed and updated before setting up the environment. `requirements.txt` must be placed in the working directory. 
 
@@ -29,7 +34,7 @@ pip install --user ipykernel
 python -m ipykernel install --user --name=bnwker
 ```
 
-## Running the jupyter notebooks
+### Using the jupyter notebooks
 Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it trusted (Not Trusted > Trust). Run the notebooks in the indicated order:
 * `00_import`
 * `01_IP`
