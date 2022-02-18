@@ -2,25 +2,25 @@
 This is the source code for the scientific article [Automated Detection of Missing Links in Bicycle Networks](https://arxiv.org/abs/2201.03402) by A. Vybornova, T. Cunha, A. Gühnemann and [M. Szell](http://michael.szell.net/). The code runs the IPDC procedure (Identify, Prioritize, Decluster, Classify), as presented in the article, for the use case of Copenhagen. 
 
 ## Workflow demonstration: Copenhagen
-The code presented here pre-processes Copenhagen data from OpenStreetMap (see below) and executes all four steps of the IPDC procedure (Identify, Prioritize, Decluster, Classify). The final output is a list of 105 top prirority gaps on the Copenhagen network, as visualized on [FixBike.Net](http://fixbike.net). The last step (Classify) requires a manual classification of automatically identified gaps. We provide our classification results for Copenhagen in order to make the entire workflow reproducible. 
+The code presented here pre-processes Copenhagen data from OpenStreetMap (see below) and executes the first three steps of the IPDC procedure (Identify, Prioritize, Decluster). The last step (Classify) requires a manual classification of automatically identified gaps.
 
 ## Using the workflow: Application to other cities
-The code is applied to the use case of Copenhagen to demonstrate the workflow, but can be easily modified for application to any other city. 
-[Input data: 1 csv file each for all nodes and edges for car network and protected bicycle infrastructure network; finally, in the table "..." that is the output of `02_D` must be used to conduct a manual classification of identified gaps; table "..." is then used as input for `03_plot`]
+The code is applied to the use case of Copenhagen to demonstrate the workflow, but can be easily modified for application to any other city by changing the input data (csv files generated from [https://www.openstreetmap.org/](OpenStreetMap)). 
 
 **Preprint**: [https://arxiv.org/abs/2201.03402](https://arxiv.org/abs/2201.03402)  
 **Visualization (map)**: [FixBike.Net](http://fixbike.net) 
-**Visualization (table)**: [FixBike.Net](http://fixbike.net/table) 
+**Visualization (table)**: [FixBike.Net/table](http://fixbike.net/table) 
 
 ## Folder structure
 
 The main folder/repo is `bikenwgaps`. It contains:
-* Jupyter notebooks with code: `00_import`, `01_IP`, `02_DC`, `03_plot`
+* Jupyter notebooks with code: `00_import`, `01_IP`, `02_D`
 *  `requirements.txt`: required packages for setting up the code environment
 * `packages.py`: list of packages imported within each notebook
 * `parameters_plot.py`: list of plot parameters imported for plotting 
 *  `/data/`: subfolder with OSM data (in csv file format) as imported in `00_import`
 *  `_compare`: subfolder with code output as generated if all 3 notebooks are run successfully
+*  `fixbikenet`: subfolder with all html and image sources for [FixBike.Net](http://fixbike.net) and [FixBike.Net/table](http://fixbike.net/table)
 
 All output from the code is saved to the subfolders `./data/pickle/` and `./analysis/`. Once all output is generated, the notebooks can be re-run independently from each other (in any order). 
 
@@ -46,10 +46,9 @@ python -m ipykernel install --user --name=bnwker
 Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it trusted (Not Trusted > Trust). Run the notebooks in the indicated order:
 * `00_import`
 * `01_IP`
-* `02_DC`
-* `03_plot`
+* `02_D`
 
 ## Results
 The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
 
-![kbh_gh](https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png)
+![kbh_gh](<img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png" width="200"/>)
