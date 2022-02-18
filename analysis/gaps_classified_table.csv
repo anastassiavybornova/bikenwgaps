@@ -1,0 +1,135 @@
+﻿;rank;address;class;comments
+0;65252;Knippelsbro;br;
+1;44659;;;bikepath not tagged in osm 
+2;43379,99;;;upgrade from lane to path around 2017
+3;39523,72;;;
+4;39447;"&Oslash;ster Voldgade &#215; S&oslash;lvgade";is;
+5;37565;"Enghavevej &#215; Vigerslev All&eacute;";is;path indication has worn off
+6;37307,95;Jacob Erlandsens Gade;st;residential
+7;36498,16;"T&aring;singegade";st;
+8;36278;"&Oslash;ster All&eacute; &#8594; N&oslash;rre All&eacute;";rt;
+9;36201,79;;;
+10;34725,94;"Hans Knudsens Plads, Gl&aelig;n&oslash;gade, &AElig;bel&oslash;gade";st;
+11;34211,67;;;
+12;33653;Langebro;br;
+13;32246;"Backersvej &#8594; &Oslash;resundsvej";rt;
+14;31741,86;"C. F. Richs Vej, Bernhard Bangs All&eacute;";st;residential
+15;29346,61;Griffenfeldsgade;st;
+16;29144,7;Aldersrogade;st;
+17;29001,05;;;should we check when it was built?
+18;28745,41;"V&aelig;rnedamsvej";st;
+19;28644,71;"Hiller&oslash;dgade &#8594; Borups All&eacute; ";rt;double right turn
+20;28568;Vermundsgade;st;
+21;28341,56;"Tschernings All&eacute;";st;residential
+22;27495,11;"&Aring;landsgade, Frankrigshusene";st;
+23;27404,73;Blegdamsvej;st;
+24;26933;Christians Brygge;rt;to be checked if still there
+25;26311;"Alekistevej &#215; Jyllingevej";is;
+26;25799;;;
+27;25725,6;;;
+28;25607,21;Thorvaldsensvej;st;
+29;25568,35;Sigynsgade;st;
+30;25542,8;Hamletsgade;st;
+31;25534,3;"Kristen Bernikows Gade, Nikolaj Plads, H&oslash;jbro Plads";st;
+32;25067;Christian IX's Gade;st;
+33;24702,46;;;
+34;24565,1;Koldinggade, Randersgade;st;
+35;24147,83;Langebrogade, Ved Langebro;st;
+36;22942;"&Oslash;ster Farimagsgade";st;
+37;22910;Borgmester Fischers Vej;st;
+38;22770,14;"G&aring;seb&aelig;ksvej";st;
+39;22768,8;"N&oslash;rre All&eacute; &#8594; &Oslash;ster All&eacute;";rt;
+40;22143,88;Nyborggade, Randersgade, Vordingborggade;st;
+41;21856,31;"Sofus Francks V&aelig;nge";st;
+42;21705,03;;;missing tag on osm
+43;21687,82;"Dybb&oslash;lsgade";st;
+44;21626;"Tietgensgade, Helgolandsgade, Colbj&oslash;rnsensgade";st;
+45;21605,56;"Bl&aring;g&aring;rdsgade";st;
+46;21599;"Peter Bangs Vej &#215; Lindevangs All&eacute;";is;
+47;21580,02;;;
+48;20994,98;"Annexstr&aelig;de, Rughavevej";st;
+49;20990,26;Herlufsholmvej;st;
+50;20951,89;Nordre Frihavnsgade;st;
+51;20826,05;;;
+52;20517,67;Australiensvej/Bryggerivangen and Sankt Kjelds Plads;ra;
+53;20484,32;"Christen Bergs All&eacute;";st;
+54;20464,19;Vendersgade;st;
+55;20400,49;;;
+56;20284,24;;;
+57;20202;"Skellet &#215; Roskildevej";is;
+58;20194,16;"Forh&aring;bningsholms All&eacute;, Carl Plougs Vej, Julius Thomsens Plads, Julius Thomsens Gade";st;
+59;20156;;;
+60;20090,43;"Vall&oslash;vej";st;
+61;19622;"Enghavevej &#215; P. Knudsens Gade";is;
+62;19545,35;"S&oslash;lvtorvet";is;indicates complicated intersection including one right-turn
+63;19502,77;"Hammerichsgade &#215; Vesterbrogade";is;
+64;19387;;;
+65;19185;;;would be a rightturn/intersection but osm tag is not clear
+66;19171,14;Store Kongensgade;st;
+67;19095,62;Birkedommervej, Landsdommervej;st;
+68;19063,86;;;something weird happening with bike path tagging here
+69;19000;;;
+70;18988,35;"R&aring;dmandsgade, Mimersgade, Thorsgade";st;
+71;18964,78;"&Oslash;rnevej, M&aring;gevej";st;
+72;18954,85;;;
+73;18941,13;Gamle Vasbygade;st;
+74;18812,39;"Fensmarkgade &#215; Tagensvej";is;
+75;18530,71;Kronprinsesse Sofies Vej;st;
+76;18331,48;"&Oslash;stbanegade, Bergensgade";st;
+77;18312;;;
+78;18254,09;Rantzausgade, Kapelvej, Hans Tavsens Gade;st;
+79;18117;"S&oslash;ndre Fasanvej &#8594; Smallegade";rt;
+80;18116,23;Strandboulevarden;st;
+81;18033;;;
+82;17992,56;Valby Langgade, Gammel Jernbanevej;st;
+83;17927,06;"Oxford All&eacute;";st;only found because there is a blocking for car passing
+84;17777,71;"Frilands All&eacute;";st;residential
+85;17698;;;
+86;17693;"Ellebjergvej &#215; Gammel K&oslash;ge Landevej";is;
+87;17597,02;"H. C. Andersens Boulevard &#215; Rysensteensgade";is;
+88;17506,98;;;
+89;17503,79;;;
+90;17455,12;Bernstorffgade;st;
+91;17392;"Kingosgade &#215; Frederiksberg All&eacute;";is;
+92;17361,82;Engvej, Sorrentovej, Backersvej;st;
+93;17319,13;"N&oslash;rregade, Gammeltorv, Nytorv, R&aring;dhusstr&aelig;de, Frederiksholms Kanal";st;
+94;17290,48;Kronprinsessegade;st;
+95;17289,96;Gustav Johannsens Vej;st;
+96;17181,06;"Ib Sch&oslash;nbergs All&eacute;";st;
+97;17071;Lygten;st;
+98;17053,29;;;
+99;16907,22;"M&aring;gevej";st;pe needs to be removed
+100;16897,3;Retortvej;st;
+101;16868,78;"Blegdamsvej &#215; Tagensvej";is;
+102;16855,13;Guldbergsgade;st;
+103;16766;"Gammel Kongevej &#215; Henrik Steffens Vej";is;
+104;16762;Solvej;st;
+105;16757,83;"Frederiksberg All&eacute;, Platanvej, Vesterf&aelig;lledvej";st;
+106;16740,15;;;
+107;16729,97;Sibeliusgade;st;
+108;16533,49;Vester Farimagsgade (north);st;remove some of the edges
+109;16530,44;"Stadfeldtsvej, Ole Borchs Vej, H&oslash;ffdingsvej";st;
+110;16529,58;Drosselvej;st;
+111;16505,92;"Korsager All&eacute;";st;
+112;16420;"Kortl&oslash;b";st;
+113;16388,54;"&Aring;gade &#8594; Borups Plads";rt;also contains intersection (is) on Borups Plads / Ågade
+114;16330,59;Tranehavevej;st;residential
+115;15846;"Tofteg&aring;rds Plads &#215; Vigerslev All&eacute;";is;
+116;15803,53;Stefansgade, Gormsgade, Mimersgade, Baldersgade;st;to be potentially split up
+117;15769,59;Sigurdsgade;st;
+118;15748;;;
+119;15717;Langebro (other side);br;
+120;15709,74;;;footpath
+121;15651,98;Jernbanegade;st;
+122;15649,52;Shetlandsgade;st;almost a parallel path
+123;15597;"B&oslash;rsgade &#215; Holmens Bro";is;
+124;15585,23;Vester Farimagsgade (south);st;
+125;15556,96;Rialtovej;st;
+126;15527,71;"Peder Lykkes Vej, Prinsesse Christines Vej, H&oslash;jdevej";st;
+127;15496,53;Lergravsvej;st;
+128;15439,62;"Bagerstr&aelig;de";st;
+129;15435,43;"&AElig;blevej";st;residential
+130;15376,39;"Str&oslash;mmen";st;dead end
+131;15365,12;Straussvej;st;residential
+132;15365;"Mellemvangen &#215; Hareskovvej";is;
+133;15322,68;"Lysh&oslash;jg&aring;rdsvej";st;
