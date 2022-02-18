@@ -52,4 +52,5 @@ Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it t
 
 ## Results
 The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
+
 <img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png" width="300"/>
