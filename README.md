@@ -54,7 +54,7 @@ Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it t
 
 ## Using the workflow: Application to other cities
 The code can be easily modified for application to any other city. Steps to take: 
-* Before running `00_import` - change the input data (csv files generated from [https://www.openstreetmap.org/](OpenStreetMap))
+* Before running `00_import` - change the input data (csv files generated from [OpenStreetMap](https://www.openstreetmap.org/))
 * Run `00_import`, adjusting file names for import, and verify if largest connected component is accurately represented
 * Run `01_IP`, adjusting D_min (detour factor) if needed (default: D_min = 1.5)
 * Run `02_DC`, adjusting B_cutoff (benefit cutoff) if needed (default: B_cutoff = 15300) and the coordinates for map centering (default is mycity_coord = [55.6761, 12.5683] for Copenhagen)
