@@ -34,7 +34,7 @@ All output from the code is saved to the subfolders `./data/pickle/`, `./analysi
 
 ### Setting up code environment 
 
-The required python version is 3.8.8. `pip` must be installed and updated before setting up the environment. `requirements.txt` must be placed in the working directory. For issues that may arise with geopandas dependencies on windows, we refer to this [blogpost by Geoff Boeing](https://geoffboeing.com/2014/09/using-geopandas-windows/). 
+The required python version is 3.8.8. `pip` must be installed and updated before setting up the environment. `requirements.txt` must be placed in the working directory. For issues that may arise with geopandas dependencies on windows, we refer our fellow sufferers to this [blogpost by Geoff Boeing](https://geoffboeing.com/2014/09/using-geopandas-windows/). 
 
 ```
 conda create --override-channels -c conda-forge -n bnwenv shapely
@@ -45,7 +45,7 @@ pip install --user ipykernel
 python -m ipykernel install --user --name=bnwker
 ```
 
-### Using the jupyter notebooks
+### Running the jupyter notebooks
 Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it trusted (Not Trusted > Trust). Run the notebooks in the indicated order:
 * `00_import`
 * `01_IP`
