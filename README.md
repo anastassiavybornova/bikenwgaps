@@ -1,6 +1,8 @@
 # Automated Detection of Missing Links in Bicycle Networks 
 This is the source code for the scientific article [Automated Detection of Missing Links in Bicycle Networks](https://arxiv.org/abs/2201.03402) by A. Vybornova, T. Cunha, A. Gühnemann and [M. Szell](http://michael.szell.net/). The code runs the IPDC procedure (Identify, Prioritize, Decluster, Classify), as presented in the article, for the use case of Copenhagen. 
 
+<img src="https://user-images.githubusercontent.com/73348979/154666572-0d797b4b-f208-4103-851b-dc03cdca2af5.png"/>
+
 ## Workflow demonstration: Copenhagen
 The code presented here pre-processes Copenhagen data from OpenStreetMap (see below) and executes the first three steps of the IPDC procedure (Identify, Prioritize, Decluster). The last step (Classify) requires a manual classification of automatically identified gaps.
 
@@ -50,7 +52,4 @@ Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it t
 
 ## Results
 The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
-<p class="aligncenter">
-<img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png" width="200" class="center"/>
-</p>
-
+<img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png" width="300"/>
