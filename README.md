@@ -52,11 +52,6 @@ Run jupyter notebook with bnwker (Kernel > Change Kernel > bnwker) and make it t
 * `02_DC`
 * `03_PLOT`
 
-## Results
-The final output of the code consists of 2 files, saved to `./analysis/`, which give an overview of identified gaps (a html file with a map, as shown below, and a csv file containing the gap list) and are to be used for the last, manual step of the IPDC procedure - Classify.
-
-<img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png">
-
 ## Using the workflow: Application to other cities
 The code can be easily modified for application to any other city. Steps to take: 
 * Before running `00_import` - change the input data (csv files generated from [https://www.openstreetmap.org/](OpenStreetMap)) and accordingly replace file names in `00_import`
@@ -71,3 +66,5 @@ The code can be easily modified for application to any other city. Steps to take
 ** save edited csv table as "./analysis/gaps_classified_table.csv" (replacing the existing file of Copenhagen data)
 ** table is imported in the next step (notebook 03_PLOT) for visualization of results
 * Run `03_PLOT`, adjusting coordinates for map centering and (if needed) adjusting gap colours and classes
+
+<img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png">
