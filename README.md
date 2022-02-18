@@ -1,15 +1,15 @@
 # Automated Detection of Missing Links in Bicycle Networks 
 This is the source code for the scientific article [Automated Detection of Missing Links in Bicycle Networks](https://arxiv.org/abs/2201.03402) by A. Vybornova, T. Cunha, A. Gühnemann and [M. Szell](http://michael.szell.net/). The code runs the IPDC procedure (Identify, Prioritize, Decluster, Classify), as presented in the article, for the use case of Copenhagen. 
 
+**Preprint**: [https://arxiv.org/abs/2201.03402](https://arxiv.org/abs/2201.03402)  
+**Visualization (map)**: [FixBike.Net](http://fixbike.net) 
+**Visualization (table)**: [FixBike.Net/table](http://fixbike.net/table) 
+
 <img src="https://user-images.githubusercontent.com/73348979/154666572-0d797b4b-f208-4103-851b-dc03cdca2af5.png"/>
 
 ## Workflow demonstration: Copenhagen
 The code presented here pre-processes Copenhagen data from OpenStreetMap (see below) and executes the all four steps of the IPDC procedure (Identify, Prioritize, Decluster, Classify). The last step (Classify) requires a manual classification of automatically identified gaps.
 The code is applied to the use case of Copenhagen to demonstrate the workflow, but can be easily modified for application to any other city - see instructions in the last part of the readme.
-
-**Preprint**: [https://arxiv.org/abs/2201.03402](https://arxiv.org/abs/2201.03402)  
-**Visualization (map)**: [FixBike.Net](http://fixbike.net) 
-**Visualization (table)**: [FixBike.Net/table](http://fixbike.net/table) 
 
 ## Folder structure
 
