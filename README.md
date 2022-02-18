@@ -59,12 +59,11 @@ The code can be easily modified for application to any other city. Steps to take
 * Run `01_IP`, adjusting D_min (detour factor) if needed (default: D_min = 1.5)
 * Run `02_DC`, adjusting B_cutoff (benefit cutoff) if needed (default: B_cutoff = 15300) and the coordinates for map centering (default is mycity_coord = [55.6761, 12.5683] for Copenhagen)
 * Manually classify the gaps 
-** use "./analysis/gaps_declustered_table.csv" and "./analysis/gaps_declustered_plot.html" generated for your city
-** column "class": enter gap class (e.g. "BR" for bridge, "ST" for street, etc.)
-** if gap is not confirmed (data issue/error): leave "class" cell for that row empty
-** columns "address" and "comments": optional
-** save edited csv table as "./analysis/gaps_classified_table.csv" (replacing the existing file of Copenhagen data)
-** table is imported in the next step (notebook 03_PLOT) for visualization of results
+    * use "./analysis/gaps_declustered_table.csv" and "./analysis/gaps_declustered_plot.html" generated for your city* column "class": enter gap class (e.g. "BR" for bridge, "ST" for street, etc.)
+    * if gap is not confirmed (data issue/error): leave "class" cell for that row empty
+    * columns "address" and "comments": optional
+    * save edited csv table as "./analysis/gaps_classified_table.csv" (replacing the existing file of Copenhagen data)
+    * table is imported in the next step (notebook 03_PLOT) for visualization of results
 * Run `03_PLOT`, adjusting coordinates for map centering and (if needed) adjusting gap colours and classes
 
 <img src="https://user-images.githubusercontent.com/73348979/154647305-264f33ab-5136-4576-a5b8-8a8db495a042.png">
