@@ -1,8 +1,8 @@
-folium
-geopandas
-matplotlib
+folium==0.12.1.post1
+geopandas==0.10.2
+matplotlib==3.5.1
 networkx==2.5
-numpy
-pandas
-python-igraph
-Shapely
+numpy==1.22.2
+pandas==1.4.1
+python-igraph==0.9.9
+Shapely==1.8.0
