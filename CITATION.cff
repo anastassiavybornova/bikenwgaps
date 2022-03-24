@@ -1,10 +1,20 @@
-@article{vybornova2022adm,
-  title={Automated Detection of Missing Links in Bicycle Networks},
-  author = {Vybornova, Anastassia and Cunha, Tiago and Gühnemann, Astrid and Szell, Michael},
-  journal = {Geographical Analysis},
-  number = {0},
-  pages = {1--29},
-  volume = {0},
-  year = {2022},
-  doi={https://doi.org/10.1111/gean.12324}
-}
+cff-version: 1.0.0
+message: "If you use this source code, please cite it as below."
+authors:
+- family-names: "Vybornova"
+  given-names: "Anastassia"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Cunha"
+  given-names: "Tiago"
+- family-names: "Gühnemann"
+  given-names: "Astrid"
+- family-names: "Szell"
+  given-names: "Michael"
+title: "Automated Detection of Missing Links in Bicycle Networks"
+version: 1.0.0
+journal: "Geographical Analysis"
+year: 2022
+volume: 0
+pages: 0--29
+doi: 10.1111/gean.12324
+date-released: 2022-03-21
