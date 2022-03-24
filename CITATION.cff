@@ -1,11 +1,10 @@
 @article{vybornova2022adm,
   title={Automated Detection of Missing Links in Bicycle Networks},
   author = {Vybornova, Anastassia and Cunha, Tiago and Gühnemann, Astrid and Szell, Michael},
-  doi = {10.0000/00000},
   journal = {Geographical Analysis},
   number = {0},
   pages = {1--29},
-  title = {{My awesome research software}},
   volume = {0},
-  year = {2022}
+  year = {2022},
+  doi={https://doi.org/10.1111/gean.12324}
 }
