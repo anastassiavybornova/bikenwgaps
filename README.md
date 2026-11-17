@@ -1,6 +1,9 @@
 # Automated Detection of Missing Links in Bicycle Networks 
 This is the source code for the scientific article [Automated Detection of Missing Links in Bicycle Networks](https://doi.org/10.1111/gean.12324) by A. Vybornova, T. Cunha, A. Gühnemann and [M. Szell](http://michael.szell.net/). The code runs the IPDC procedure (Identify, Prioritize, Decluster, Classify), as presented in the article, for the use case of Copenhagen. 
 
+> [!TIP]
+> This repository contains unmaintained research code. We have developed a user-friendly, packaged, efficient version of the code in our [BikeNetKit](https://github.com/BikeNetKit) project: [FixBikeNet](https://github.com/BikeNetKit/FixBikeNet)
+
 **Publication**: [https://doi.org/10.1111/gean.12324](https://doi.org/10.1111/gean.12324)
 
 **Preprint**: [https://arxiv.org/abs/2201.03402](https://arxiv.org/abs/2201.03402) 
